@@ -1,0 +1,1 @@
+# crear un programa que asigne un puntaje a cada letra del abcdario y que su funcion me permita saber la letra que tenga menor puntaje mayor y a media
