@@ -108,11 +108,34 @@ def mejor_alumno(**kwargs):
  2. especificar la cantidad de parametros.
  3. indicar los datos de retorno
 ```py
-
+lambda a,b: a+b 
 ```
 
 > [!TIP] puesto que esta funcion es aninima para ejecutarla debemos almacenar la funcion en una variable
 
 ```py
+lambda a,b: a+b 
+suma (3+6)
 
 ```
+
+## Documentacion
+python nos permite documentar la funcion  con el objetivo de explicar mejor determinadas zonas de nuestro codigo para esto usamos una cadena de texto despues de la definicon de una funcion, a esta cadena de texto se le conoce como `docstring` y esta terminado por triples `"""`.
+```py
+def suma(a,b)
+    """
+    funcion para realisar la suma de 2 numeros
+    """
+## los docs streems tambien nos permite explicar los parametros que reciben y los datos de salida 
+def resta(a,b)
+"""
+a= es un numero entero
+b= a un numero entero
+en ambos casos a,b no deben rtecibir valores menores a 0.
+retornara un dato entero <int>y positivo
+"""
+return a-b
+
+```
+
+> [!WARING] en el proceso de documentacion tener en cuenta de incluir a lo menos lo siguiente: 1. especificaiones y caracteristicas de los parametros incluyendo sus tipos. 2. restriciiones de la funcion. 3. el valor que retorna y sus caracteristicas.
