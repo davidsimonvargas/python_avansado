@@ -95,3 +95,24 @@ def mejor_alumno(**kwargs):
     return mejor_alumno
  mejor_alumno(noemi=20,eduardo=18,david=19)
  ```
+
+ ## Funciones anonimas
+ las funciones anonimas en python son llamadas `lambda` estas funciones tienen las siguientes propiedades:
+ 1. se escribe en una unica sentencia`(linea)`.
+ 2. no tiene nombre`(anonima)`.
+ 3. su cuerpo conlleva un `return` duplicito.
+ 4. puede recibir cualquier numero de parametro.
+ 
+ la estructura pra definir una funcion `lambda` es la siguiente:
+ 1. escribir la palabra reservada `lambda`. 
+ 2. especificar la cantidad de parametros.
+ 3. indicar los datos de retorno
+```py
+
+```
+
+> [!TIP] puesto que esta funcion es aninima para ejecutarla debemos almacenar la funcion en una variable
+
+```py
+
+```
