@@ -142,3 +142,32 @@ return a-b
 > 1. especificaiones y caracteristicas de los parametros incluyendo sus tipos. 
 > 2. restriciiones de la funcion. 
 > 3. el valor que retorna y sus caracteristicas.
+
+## type-hints(anotacionesde tipo)
+Nos permite indicar que tipo de datos tendra una variable, parametro y el valor de retorno de una funcion.
+Para utilisarlos debemos de indicar el tipo de dato despues del separador `:`, en el caso del valor de retorno usaremos `->` luego el tipo de dato y finalmente el separador`:` que indica el inicio del bloque de codigo de la funcion.
+Las `anotaciones de tipo` son una herramienta que nos permite complementar la documentacion de nuestro codigo
+**tenemos los sigueintes**
+
++ **simple**
+
+- int-> numeros enteros
+- float-> numeros decimales
+- bool -> datos boleanos,(verdad o falso)
+- str -> datos de texto o cadena
+- list -> listas`[]`
+- tuple -> tuplas `()`
+- dict -> diccionarios `{}`
+
++ **compuestos**
+
+existen casos en los que necesitamos mas exclusividad en la *anotacion de tipos* ¿que ocurre si queremos indicar una *lista de cadenas* o un *conjunto de enteros*?
+- list[str]-> lista de cadenasde texto
+- list[int]-> lista de numeros enteros
+- dic[str,float]-> diccionario donde las claves son cadenas de texto y los valores son flotantes/decimales
+
++ **multiples**
+en el caso que queramos indicar de un  determinado parametro ouede ser de un `tipo o de otro` tenemos que especificarlo usando el operador `|`
+- tuple|dict-> puede ser dato de tipo tupla o diccionario
+- list[str|int]-> lista cuyos elementos pueden ser cadena de texto o enteros
+- dict[str|float|int]-> diccionario cuya clave puede ser texto,decimnal o entero, y valor lo mismo.
