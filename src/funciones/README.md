@@ -131,11 +131,14 @@ def resta(a,b)
 """
 a= es un numero entero
 b= a un numero entero
-en ambos casos a,b no deben rtecibir valores menores a 0.
+en ambos casos a,b no deben recibir valores menores a 0.
 retornara un dato entero <int>y positivo
 """
 return a-b
 
 ```
 
-> [!WARING] en el proceso de documentacion tener en cuenta de incluir a lo menos lo siguiente: 1. especificaiones y caracteristicas de los parametros incluyendo sus tipos. 2. restriciiones de la funcion. 3. el valor que retorna y sus caracteristicas.
+> [!WARING] en el proceso de documentacion tener en cuenta de incluir a lo menos lo siguiente: 
+> 1. especificaiones y caracteristicas de los parametros incluyendo sus tipos. 
+> 2. restriciiones de la funcion. 
+> 3. el valor que retorna y sus caracteristicas.
